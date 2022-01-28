@@ -1,0 +1,27 @@
+{
+  "name": "prac",
+  "version": "1.0.0",
+  "description": "this is practise of node js.",
+  "main": "server.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Vignesh-mediwave/node-prac.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Vignesh-mediwave/node-prac/issues"
+  },
+  "homepage": "https://github.com/Vignesh-mediwave/node-prac#readme",
+  "dependencies": {
+    "express": "^4.17.2",
+    "lodash": "^4.17.21"
+  }
+}

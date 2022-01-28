@@ -1,8 +1,11 @@
 const serve = require("http");
 const fs = require("fs");
+const _ = require("lodash");
 
 const server = serve.createServer((req, res) => {
-  console.log(req.url, req.method);
+  //loadash
+  const num = _.random(0, 20);
+  console.log(num);
 
   //set header content type
 
@@ -21,7 +24,7 @@ const server = serve.createServer((req, res) => {
       path += "about.html";
       res.statusCode = 200;
       break;
-    case "/about-me":
+    case "/about-meh":
       res.statusCode = 301;
       res.setHeader("Location", "/about");
       res.end();
